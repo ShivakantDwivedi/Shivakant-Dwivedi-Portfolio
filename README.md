@@ -19,18 +19,26 @@ About section: The "About" section provides a brief introduction of myself, my e
 Contact section: The "Contact" section includes a contact form for visitors to send me messages directly.
 
 
+<h3>
 Usage
+</h3>
 Feel free to use this repository as a reference or template for your own portfolio website. You can clone the repository using the following command:
 
-Copy code
+<h3>
+Copy Code
+</h3>
 git clone https://github.com/yashxjain/yashxjain.github.io.git
 
 You can then open the index.html file in your web browser to view the website locally.
 
-Contributing
+<h3>
+Contibuting
+</h3>
 
 If you find any issues with the website or have suggestions for improvement, please feel free to open an issue or submit a pull request.
 
+<h3>
 License
+</h3>
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
