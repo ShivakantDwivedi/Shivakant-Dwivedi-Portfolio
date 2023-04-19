@@ -3,8 +3,9 @@ yashxjain.github.io
 This is my personal portfolio website created using HTML, CSS, and JavaScript. You can access it at yashxjain.github.io.
 
 Live Site - https://yashxjainportfolio.netlify.app/
-
+<h3>
 Features:
+</h3>
 Responsive design: The website is designed to look great and function flawlessly on any device, including desktops, laptops, tablets, and smartphones.
 
 Interactive elements: The website features interactive elements such as a navigation menu, a slider for project images, and a contact form.
