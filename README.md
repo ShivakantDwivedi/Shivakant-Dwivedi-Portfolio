@@ -37,8 +37,4 @@ Contibuting
 
 If you find any issues with the website or have suggestions for improvement, please feel free to open an issue or submit a pull request.
 
-<h3>
-License
-</h3>
 
-This project is licensed under the MIT License - see the LICENSE.md file for details.
