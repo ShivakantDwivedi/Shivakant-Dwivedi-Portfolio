@@ -29,7 +29,7 @@ body {
 }
 
 section {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     padding: 10rem 9% 2rem;
 }
 
@@ -85,17 +85,21 @@ section {
     width: 35vw;
     animation: floatImage 4s ease-in-out infinite;
 }
-@keyframes floatImage{
-    0%{
+
+@keyframes floatImage {
+    0% {
         transform: translateY(0);
     }
-    50%{
+
+    50% {
         transform: translateY(-2.4rem);
     }
-    100%{
+
+    100% {
         transform: translateY(0);
     }
 }
+
 .home-content h3 {
     font-size: 3.2rem;
     font-weight: 700;
@@ -514,5 +518,128 @@ span {
     .footer p {
         text-align: center;
         margin-top: 2rem;
+    }
+}
+
+/* Education section */
+.education {
+    /* padding: 50px 0; */
+
+}
+
+.education h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: var(--main-color);
+}
+
+.education-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.education-box {
+    flex: 1;
+    max-width: 33%;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.education-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+
+.education-box h4 {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.education-box p {
+    font-size: 16px;
+    color: #999;
+}
+
+/* Skills section */
+.skills {
+    /* padding: 50px 0; */
+    background-color: var(--second-bg-color);
+}
+
+.skills h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: var(--main-color);
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skills-box {
+    flex: 1;
+    max-width: 33%;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.skills-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.skills-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills-box li {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    height: 7rem;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 4rem;
+    color: var(--main-color);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5s ease;
+}
+
+.skills-box li:hover {
+    background: var(--main-color);
+    color: var(--second-bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+.skills-box h4 {
+    color: var(--main-color);
+}
+
+@media only screen and (max-width: 768px) {
+
+    .education-container,
+    .skills-container {
+        justify-content: center;
+    }
+
+    .education-box,
+    .skills-box {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .skills-box li {
+        width: 5rem;
+        height: 5rem;
+        font-size: 3rem;
+        margin: 2rem 1rem 2rem 0;
     }
 }
