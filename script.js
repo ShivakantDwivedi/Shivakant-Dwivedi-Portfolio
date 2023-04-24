@@ -43,3 +43,10 @@ ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 
+var typed = new Typed(".multi-text", {
+    strings: ["Full Stack Web Developer", "Full Stack Web Developer", "JAVA Backend Developer"],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+});
