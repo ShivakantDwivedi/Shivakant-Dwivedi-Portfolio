@@ -37,8 +37,8 @@ ScrollReveal({
     delay: 200
 });
 
-ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-ScrollReveal().reveal('.home-img, .services-container, .projects-box, .contact form,.skills-box,.education-box', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content, .heading, .btn', { origin: 'top' });
+ScrollReveal().reveal('.home-img, .services-container, .projects-box, .contact form,.skills-box,.education-box,.social-media a i', { origin: 'bottom' });
 ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
