@@ -73,6 +73,7 @@ section {
     font-size: 3.6rem;
     color: var(--text-color);
     display: none;
+    cursor: pointer;
 }
 
 .home {
@@ -209,6 +210,7 @@ span {
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
+    position: relative;
 }
 
 .services-container .services-box {
@@ -219,7 +221,10 @@ span {
     text-align: center;
     border: .2rem solid var(--second-bg-color);
     transition: .5s ease;
+
 }
+
+
 
 .services-container .services-box:hover {
     border-color: var(--main-color);
@@ -740,4 +745,3 @@ span {
     color: var(--second-bg-color);
     box-shadow: 0 0 1rem var(--main-color);
 }
-

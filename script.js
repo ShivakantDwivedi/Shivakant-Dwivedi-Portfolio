@@ -50,3 +50,12 @@ var typed = new Typed(".multi-text", {
     backDelay: 1000,
     loop: true
 });
+
+
+
+
+var runredirect = function () {
+    var redirectw1 = window.open('https://drive.google.com/file/d/1tv57HSq_nOq5kK1hRThJSST5bQPe7sLw/view?usp=sharing');
+    redirectw1.location;
+}
+
