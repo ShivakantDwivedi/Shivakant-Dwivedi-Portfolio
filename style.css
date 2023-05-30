@@ -745,3 +745,55 @@ span {
     color: var(--second-bg-color);
     box-shadow: 0 0 1rem var(--main-color);
 }
+
+.skilllist {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .git-stats-section {
+    background: var(--second-bg-color);
+} */
+
+#git-stats {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* flex:1 1 30rem; */
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+    margin: 2rem 0rem 2rem 0rem;
+    transition: .5s ease;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    place-items: center;
+}
+
+#git-stats img {
+    border: .2rem solid var(--second-bg-color);
+    border-radius: 2rem;
+    margin: 3rem;
+    width: 100%;
+}
+
+.js-calendar-graph-svg {
+    width: 100%;
+}
+
+.js-calendar-graph {
+    width: 100%;
+}
+
+.contrib-column contrib-column-first table-column {
+    width: 100%;
+}
+
+#git-stats img:hover {
+    transition: 0.5s ease;
+    border-radius: 2rem;
+    border: .2rem solid var(--main-color);
+}

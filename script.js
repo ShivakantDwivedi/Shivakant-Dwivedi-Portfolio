@@ -55,7 +55,7 @@ var typed = new Typed(".multi-text", {
 
 
 var runredirect = function () {
-    var redirectw1 = window.open('https://drive.google.com/file/d/1tv57HSq_nOq5kK1hRThJSST5bQPe7sLw/view?usp=sharing');
+    var redirectw1 = window.open('https://drive.google.com/file/d/1A4VzlA4SyhCFbGin9ZSzR6l6tYNI9xXe/view?usp=share_link');
     redirectw1.location;
 }
 
